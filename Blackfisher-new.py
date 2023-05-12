@@ -1,6 +1,6 @@
 # Blackfisher-new
 # -*- coding: UTF-8 -*-
-# ToolName   : Blackfisher
+# ToolName   : Blackfisher-new
 # Author     : Kuldeep kaswan
 # Version    : 1.1
 # License    : 
